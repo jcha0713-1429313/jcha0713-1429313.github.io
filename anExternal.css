@@ -76,7 +76,7 @@ body {
   position: fixed;
   bottom: 100px;
   left: 90px;
-  border: 4px dotted red;
+  border: 4px dotted rgba(0, 0, 200, 0.3);
   padding: 12px;
 }
 
