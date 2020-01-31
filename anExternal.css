@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Arvana;
+  src: url("fonts/Arvanav0.2-Regular.woff2"), url("fonts/Arvanav0.2-Regular.woff");
+}
+
+@font-face {
+  font-family: Gig;
+  src: url("fonts/GigV0.2-Regular.woff");
+}
+
+body {
+  font-family: "Arvana";
+  background-color: rgba(0, 100, 90, 0.2);
+}
+
+.twoParas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twoParas p {
+  text-align: center;
+  line-height: 1.7;
+  margin: 30px 20px 30px 20px;
+}
+
+.twoParas img {
+  margin: 50px 0 10px 0;
+  transition: width 0.8s, height 0.8s;
+}
+
+/* .twoParas img:hover {
+  width: 350px;
+  height: 475px;
+} */
+
+.firstPara {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.secondPara {
+  width: 50%;
+  font-family: monospace;
+  font-size: 115%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.textOnPic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.textOnPic img {
+  margin: 40px 0 70px 0;
+}
+
+.textOnPic .textbox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.text {
+  font-family: "Gig";
+  color: white;
+  font-size: 48px;
+}
+
+.footerBox {
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footerBox p {
+  border: 4px dotted rgba(0, 0, 14, 0.3);
+}
+
+.circle1 {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  right: 470px;
+  bottom: 30px;
+  background-color: rgba(128, 100, 90, 0.7);
+  z-index: -1;
+}
+
+.circle2 {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  left: 470px;
+  bottom: 500px;
+  background-color: rgba(128, 213, 43, 0.4);
+  z-index: -1;
+}
