@@ -30,10 +30,6 @@ body {
   transition: width 0.8s, height 0.8s;
 }
 
-/* .twoParas img:hover {
-  width: 350px;
-  height: 475px;
-} */
 .firstPara {
   width: 50%;
   display: flex;
@@ -80,7 +76,7 @@ body {
   position: fixed;
   bottom: 100px;
   left: 90px;
-  border: 4px dotted rgba(0, 0, 200, 0.3);
+  border: 4px dotted red;
   padding: 12px;
 }
 
